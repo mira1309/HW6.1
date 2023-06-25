@@ -40,7 +40,7 @@ public class Main {
             System.out.print(m[i] + ", ");
 
         }
-        System.out.println();
+        System.out.println( );
     }
 
     public static void task23() {
