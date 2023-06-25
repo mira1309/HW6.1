@@ -32,8 +32,15 @@ public class Main {
 
     public static void task22() {
         double[] m = new double[]{1.57, 7.654, 9.986};
-        System.out.println(Arrays.toString(m));
+        for (int i = 0; i < m.length; i++) {
+            if (i == m.length - 1) {
+                System.out.print(m[i]);
+                break;
+            }
+            System.out.print(m[i] + ", ");
 
+        }
+        System.out.println();
     }
 
     public static void task23() {
